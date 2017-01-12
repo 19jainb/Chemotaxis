@@ -21,6 +21,7 @@ boolean startGame; // Create a boolean value to determine when to exit the title
  {    
    background(180, 180, 180); // Set the background.
    if (startGame) { // Condition to check if title screen is exited.
+   background((int) (Math.random() * 256), (int) (Math.random() * 256), (int) (Math.random() * 256));
      for (Bacteria bacteria : bacteriaArray) { // Move and show every bacteria.
        bacteria.move();
        bacteria.show();
