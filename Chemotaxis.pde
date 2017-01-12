@@ -4,8 +4,8 @@ boolean startGame; // Create a boolean value to determine when to exit the title
  void setup()   
  {     
    size(500, 500); // Initialize vairables.
-   bacteriaArray = new Bacteria[5000];
-   oddBacteriaArray = new BacteriaOdd[5000];
+   bacteriaArray = new Bacteria[1000];
+   oddBacteriaArray = new BacteriaOdd[1000];
    startGame = false;
    
    for (int i = 0; i < bacteriaArray.length; i++) { // Fill the bacteria array with new objects.
